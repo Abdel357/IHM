@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DatabaseViewer</class>
+ <widget class="QWidget" name="DatabaseViewer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1129</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLineEdit" name="input_1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="input_2"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="run">
+     <property name="text">
+      <string>Create Album - INPUT -&gt; (name, desc)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="input_5"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="input_4"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="showAlbums">
+     <property name="text">
+      <string>show albums</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLineEdit" name="input_3"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="input_6"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="addPhoto">
+     <property name="text">
+      <string> create photo and add photo to the album with id 1 - INPUT -&gt; (title)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="showPohtosInAlbum">
+     <property name="text">
+      <string>Show photos from an album with its specific ID - INPUT -&gt;(ID)</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
